@@ -12,12 +12,12 @@ let cabana_ejecutiva = 8000; //boton para seleccionar cabaña ejecutiva
 function multiplicar(persona, noches, cabana_economica,) {    
  
     let precio_total = persona * noches * cabana_economica;
-console.logt(`el Valor total de la estadia es ${precio_total}`);
+alert(`el Valor total de la estadia es ${precio_total}`);
     if (noches >=7) {
         let precio_total = persona * noches * cabana_economica;
         let descuento = precio_total * 15 / 100;
         let valor_total_descuento= precio_total - descuento;
-        console.log(`tenes un 15% de descuento, el costo total es ${valor_total_descuento}`);
+        alert(`tenes un 15% de descuento, el costo total es ${valor_total_descuento}`);
     }
  
 }
@@ -25,24 +25,24 @@ console.logt(`el Valor total de la estadia es ${precio_total}`);
 function multiplicar(persona, noches, cabana_familiar) {   
 
     let precio_total = persona * noches * cabana_familiar;
-    console.log(`el Valor total de la estadia es ${precio_total}`);
+    alert(`el Valor total de la estadia es ${precio_total}`);
     if  (noches >=7) {
         let precio_total = persona * noches * cabana_familiar;
         let descuento = precio_total * 15 / 100;
         let valor_total_descuento= precio_total - descuento;
-        console.log(`tenes un 15% de descuento, el costo total es ${valor_total_descuento}`);
+        alert(`tenes un 15% de descuento, el costo total es ${valor_total_descuento}`);
     }
 }
 
 function multiplicar(persona, noches, cabana_ejecutiva) {
 
     let precio_total = persona * noches * cabana_ejecutiva;
-    console.log(`el Valor total de la estadia es ${precio_total}`);
+    alert(`el Valor total de la estadia es ${precio_total}`);
     if (noches >=7) {
         let precio_total = persona * noches * cabana_ejecutiva;
         let descuento = precio_total * 15 / 100;
         let valor_total_descuento= precio_total - descuento;
-        console.log(`tenes un 15% de descuento, el costo total es ${valor_total_descuento}`);
+        alert(`tenes un 15% de descuento, el costo total es ${valor_total_descuento}`);
 }
 }
 
